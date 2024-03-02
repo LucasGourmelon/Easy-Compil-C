@@ -13,7 +13,10 @@ chmod +x /path_to/the_script/easyCompilC.sh
 sudo mv /path_to/the_script/easyCompilC.sh /usr/local/bin/
 ```
 
-After that you can execute the script from everywhere. 
+After that you can execute the script from everywhere like this :
+```cmd
+autoCompilC.sh yourProgram.c 
+```
 
 You can also create an alias on the bashrc :
 
@@ -31,4 +34,7 @@ Apply changes :
 sources ~/.bashrc 
 ```
 
-That's all !
+Now you can executhe the script like this :
+```cmd
+em yourProgram.c 
+```
